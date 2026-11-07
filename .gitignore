@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+models/
+logs/
+results/train/
+file eliminati/

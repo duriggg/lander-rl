@@ -1,0 +1,12 @@
+Prove pilota e configurazioni scartate (fallimento -200 dove non indicato)
+
+piloti_200/                 A, B, C - fallimento -200, C al 30%, senza limite superiore
+C15/, C20/                  C al 15% e al 20% - fallimento -100, senza limite superiore
+limite_C30/                 A, B, C - fallimento -200, limite superiore y >= 1,6, C al 30%
+limite_C20/, limite_C15/    C al 20% e al 15% - fallimento -200, limite superiore
+finale_senza_limite_C30/    addestramento completo (seed 22-31) e valutazione finale
+                            della configurazione precedente: fallimento -200, C al 30%,
+                            senza limite superiore (modelli non inclusi)
+
+Piloti: seed 0-4, 700.000 passi. Configurazione finale adottata: fallimento -200,
+limite superiore y >= 1,6, C al 15% (cartelle models/ e results/ del progetto).
